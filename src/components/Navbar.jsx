@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Logo from '../assets/images/mma-logo.jpeg'
+import { ArrowUpRight } from 'lucide-react'
 
 const navItems = [
   { label: 'Practice Areas', href: '#practice-areas' },
@@ -14,10 +14,15 @@ function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-slate-950/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#">
-          <img src={Logo} alt="MMA logo" className="h-10 w-auto" />
-        </a>
-
+        <a
+  href="#"
+  className="shrink-0 whitespace-nowrap font-serif text-xl tracking-tight text-white transition-colors hover:text-gold-300 sm:text-2xl"
+>
+  Muri Mbugua
+  <span className="ml-1 font-sans text-xs font-semibold uppercase tracking-widest text-gold-500">
+    & Associates
+  </span>
+</a>
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
           {navItems.map((item) => (
             <a
@@ -31,11 +36,12 @@ function Navbar() {
         </nav>
 
         <a
-          href="#contact"
-          className="hidden border border-amber-400 px-5 py-2 text-sm uppercase tracking-widest text-amber-400 transition hover:bg-amber-400 hover:text-slate-950 md:inline-block"
-        >
-          Schedule Consultation
-        </a>
+  href="#contact"
+  className="hidden items-center gap-1.5 bg-gold-500 px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-navy-900 transition hover:bg-gold-400 md:inline-flex"
+>
+  Schedule Consultation
+  <ArrowUpRight className="h-3.5 w-3.5" />
+</a>
 
         <button
           type="button"
@@ -62,12 +68,12 @@ function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
-            onClick={() => setMenuOpen(false)}
-            className="border border-amber-400 px-5 py-3 text-center text-sm uppercase tracking-widest text-amber-400"
-          >
-            Schedule Consultation
-          </a>
+  href="#contact"
+  className="hidden items-center gap-1.5 bg-gold-500 px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-navy-900 transition hover:bg-gold-400 md:inline-flex"
+>
+  Schedule Consultation
+  <ArrowUpRight className="h-3.5 w-3.5" />
+</a>
         </nav>
       )}
     </header>
