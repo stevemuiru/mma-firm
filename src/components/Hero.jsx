@@ -38,7 +38,7 @@ function Hero() {
           </h1>
 
           <p className="mb-10 max-w-2xl text-lg leading-relaxed text-slate-300 sm:text-xl">
-            For two decades, Muri Mbugua & Associates has represented Fortune 500 corporations, sovereign entities, and institutional boards in bet-the-company commercial disputes, cross-border M&A, and transformative appellate advocacy.
+            For over a decade, Muri Mbugua & Associates has represented Fortune 500 corporations, sovereign entities, and institutional boards in bet-the-company commercial disputes, cross-border M&A, and transformative appellate advocacy.
           </p>
 
           {/* Actions */}

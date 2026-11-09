@@ -6,7 +6,9 @@
   --color-gold-300: #e5cb9b;
   --color-navy-900: #0a0f1d;
   --font-serif: "Cormorant Garamond", Georgia, Cambria, serif;
---font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-gold-600: #a67f37;
+  --color-ivory: #faf9f5;
 }
 
 body {
