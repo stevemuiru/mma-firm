@@ -11,7 +11,7 @@ const stats = [
 function Hero() {
   return (
     <section className="relative flex min-h-[92vh] items-center justify-center overflow-hidden bg-navy-900 pb-16 pt-24 text-white">
-      {/* Background photo with dark gradient overlays */}
+  
       <div className="absolute inset-0 z-0">
         <img
           src={firmHero}
