@@ -1,3 +1,5 @@
+import attorneyPhoto from '../assets/images/lawyer.jpeg'
+
 const LEAD_PARTNER = 'Kennedy Muri Mbugua'
 
 export const PRACTICE_AREAS = [
@@ -72,3 +74,14 @@ export const PRACTICE_AREAS = [
     leadPartner: LEAD_PARTNER,
   },
 ]
+export const ATTORNEY = {
+  name: 'Kennedy Muri Mbugua',
+  title: 'Founding & Senior Managing Partner',
+  practice: 'Complex Commercial Litigation, M&A & Appellate Practice',
+  image: attorneyPhoto,
+  education: 'LL.B., Moi University',
+  admissions: 'Advocate of the High Court of Kenya',
+  bio: 'For over a decade, Kennedy Muri Mbugua has acted as lead counsel for businesses and individuals in commercial disputes, corporate transactions and appeals, bringing personal attention and direct courtroom advocacy to every matter.',
+  email: 'mbuguaken11@yahoo.com',
+  phone: '+254 723 298 939',
+}
