@@ -41,7 +41,7 @@ function Hero() {
             For over a decade, Muri Mbugua & Associates has represented Fortune 500 corporations, sovereign entities, and institutional boards in bet-the-company commercial disputes, cross-border M&A, and transformative appellate advocacy.
           </p>
 
-          {/* Actions */}
+          
           <div className="flex flex-col items-stretch gap-4 sm:flex-row sm:items-center sm:gap-6">
             <a
               href="#contact"
@@ -59,7 +59,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* Stats bar */}
+        
         <div className="mt-20 grid grid-cols-2 gap-8 border-t border-slate-700/60 pt-8 md:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label}>
@@ -76,7 +76,7 @@ function Hero() {
         </div>
       </div>
 
-      {/* Scroll-down arrow */}
+      
       <a
         href="#practice-areas"
         aria-label="Scroll to practice areas"

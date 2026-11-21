@@ -82,6 +82,13 @@ export const ATTORNEY = {
   education: 'LL.B., Moi University',
   admissions: 'Advocate of the High Court of Kenya',
   bio: 'For over a decade, Kennedy Muri Mbugua has acted as lead counsel for businesses and individuals in commercial disputes, corporate transactions and appeals, bringing personal attention and direct courtroom advocacy to every matter.',
-  email: 'mbuguaken11@yahoo.com',
+  email: 'mmadvocates13@gmail.com',
   phone: '+254 723 298 939',
+}
+export const FIRM_CONTACT = {
+  city: 'Bungoma (Headquarters)',
+  address: 'Moi Avenue, Bungoma',
+  phone: '+254 723 298 939',
+  email: 'mmadvocates13@gmail.com',
+  hours: 'Mon – Fri, 8:30 AM – 5:00 PM',
 }
